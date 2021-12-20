@@ -1,0 +1,41 @@
+package seconde_project;
+
+public class MainClass {
+	public static void main(String[] args) {	
+		char c = 'a';
+		System.out.println(c);
+		
+		int i = 10;
+		System.out.println(i);
+		
+		double d = 10.123;
+		System.out.println(d);
+		
+		boolean b = true;
+		System.out.println(b);
+		
+		String s = "hellow java world";
+		System.out.println(s);
+		
+		s = "good";
+		System.out.println(s);	
+		System.out.println("good \" moring \\");
+		
+		String weather = "태양 ";
+		System.out.printf("오늘의 날씨는 %s 입니다 \n", weather);
+		
+		int a = 1;
+		int aa = 2; 
+		System.out.println(a == aa);
+		System.out.println(a + aa);
+		System.out.println(a - aa);
+		System.out.println(a * aa);
+		System.out.println(a / aa);
+		System.out.println(a % aa);
+		
+		// 배열
+		int [] arr1;
+		System.out.println(arr1);
+				
+	}
+}
