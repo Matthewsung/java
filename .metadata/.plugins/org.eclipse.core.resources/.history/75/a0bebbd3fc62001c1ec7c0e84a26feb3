@@ -84,30 +84,11 @@ public class MainClass {
 			System.out.println("num1과 num2는 같다");
 		}
 		System.out.println("====================");
-		
 		// 사용자에게 입력받아서 표시
 		System.out.println("점수를 입력하세요");
 		Scanner inputNum = new Scanner(System.in);
 		int score = inputNum.nextInt();
 		
-		switch (score) {
-		case 100:
-			System.out.println("100점입니다.");
-			break;
-		case 90:
-			System.out.println("90점입니다.");
-			break;
-		case 80:
-			System.out.println("80점입니다.");
-			break;
-		case 70:
-			System.out.println("70점입니다.");
-			break;
-		default:
-			System.out.println("점수가 없습니다.");
-			break;
-		}
 		
-		inputNum.close();
 	}
 }
